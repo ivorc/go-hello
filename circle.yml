@@ -11,4 +11,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync go-hello s3://ivor-ci-demo/ --delete
+      - aws s3 sync ./go-hello s3://ivor-ci-demo/ --delete
