@@ -1,7 +1,3 @@
-machine:
-  go:
-    version: 1.7.4
-
 compile:
   override:
     - go get -t -d -v ./...
